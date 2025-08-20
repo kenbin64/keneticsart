@@ -1,0 +1,70 @@
+# ─── Node / React ───────────────────────────────
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.production
+npm-debug.log*
+
+# ─── VS Code ────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── OS Artifacts ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs / Temp ────────────────────────────────
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ─── Docker ─────────────────────────────────────
+docker-compose.override.yml
+*.pid
+*.sock
+docker/.env
+docker/data/
+__docker_cache__/
+
+# ─── Python (Backend Scripts) ───────────────────
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.sqlite3
+
+# ─── Jenkins / CI ───────────────────────────────
+.jenkins/
+*.coverage
+coverage.xml
+reports/
+test-results/
+
+# ─── Symbolic Art Assets ────────────────────────
+assets/raw/
+assets/private/
+gallery/tmp/
+gallery/drafts/
+metadata/unpublished/
+
+# ─── Printify API / Commerce ────────────────────
+printify/cache/
+printify/secrets/
+printify/tmp/
+webhooks/test_payloads/
+
+# ─── Git / Version Control ──────────────────────
+.git/
+.gitignore
+.gitattributes
+.eslintcache
+
+# ─── Misc ───────────────────────────────────────
+*.bak
+*.old
+*.orig
+*.rej
