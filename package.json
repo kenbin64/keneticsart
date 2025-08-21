@@ -1,0 +1,23 @@
+{
+  "name": "keneticsart-backend",
+  "version": "1.0.0",
+  "description": "Modular backend for KeneticsArt with JWT auth and symbolic scaffolding",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test-auth": "node scripts/authTest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": [
+    "modular",
+    "jwt",
+    "symbolic",
+    "keneticsart"
+  ],
+  "author": "Kenneth Wayne Bingham",
+  "license": "MIT"
+}
